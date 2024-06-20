@@ -2,7 +2,7 @@
   "name": "lendsqr-wallet",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "dev": "ts-node-dev src/app.ts",
     "build": "tsc",
