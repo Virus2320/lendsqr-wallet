@@ -18,7 +18,7 @@ export const connectToDatabase = async () => {
     console.log('Connected to database');
   } catch (error) {
     console.error('Error connecting to database:', error instanceof Error ? error.message : 'Unknown error');
-    process.exit(1); // Exit the process if unable to connect
+    //process.exit(1); // Exit the process if unable to connect
   }
 };
 
